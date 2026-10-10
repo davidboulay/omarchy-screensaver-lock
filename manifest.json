@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.davidboulay.screensaver-lock",
+  "name": "Screensaver Lock",
+  "version": "1.0.0",
+  "author": "David Boulay",
+  "description": "Locks the session every time the screensaver is dismissed, behind a black curtain so the desktop never shows before the lock screen.",
+  "homepage": "https://github.com/davidboulay/omarchy-screensaver-lock",
+  "license": "MIT",
+  "kinds": [
+    "service"
+  ],
+  "keepLoaded": true,
+  "entryPoints": {
+    "service": "Service.qml"
+  }
+}
